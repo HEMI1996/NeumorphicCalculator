@@ -32,6 +32,10 @@ main {
   /* Firefox */
 }
 
+main button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 main input,
 main button {
   outline: none;
@@ -90,5 +94,11 @@ main button:active {
 main .op__key,
 main .eq__key {
   color: #ff652f;
+}
+
+@media only screen and (max-width: 789px) {
+  main input {
+    width: 280px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
